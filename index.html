@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,22 +10,26 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="icon" type="image/png" href="assets/image/about.png">
 </head>
+
 <body>
     <!-- nav bar part start  -->
-     <div class="navbar bg-[#15803D] shadow-sm ">
+    <div class="navbar bg-[#15803D] shadow-sm ">
         <div class="navbar w-11/12 mx-auto">
             <div class="navbar-start">
                 <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
-                </div>
-                <ul
-                    tabindex="-1"
-                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                    <li><a>Item 1</a></li>
-                     <li><a>Item 2</a></li>  
-                    <li><a>Item 3</a></li>
-                </ul>
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="-1"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li><a>Item 1</a></li>
+                        <li><a>Item 2</a></li>
+                        <li><a>Item 3</a></li>
+                    </ul>
                 </div>
                 <div class=" flex justify-center items-center">
                     <img class="h-[50px] w-[50px] rounded-4xl" src="assets/image/about.png" alt="image">
@@ -33,15 +38,16 @@
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1 text-white">
-                <li><a>About</a></li>
-                 <li><a>Gallery</a></li>   
-                <li><a>Plant a Tree</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Gallery</a></li>
+                    <li><a>Plant a Tree</a></li>
                 </ul>
             </div>
             <div class="navbar-end">
-                <button class="btn rounded-2xl bg-[#FACC15] text-[#15803D] border-[#15803D] border-0">Plant a Tree</button>
+                <button class="btn rounded-2xl bg-[#FACC15] text-[#15803D] border-[#15803D] border-0">Plant a
+                    Tree</button>
             </div>
-        </div>   
+        </div>
     </div>
     <!-- nav bar part end  -->
     <!-- Hero banner start -->
@@ -51,22 +57,24 @@
                 <img src="assets/image/hero-leaf1.png" alt="image" class="h-auto max-w-full">
             </div>
             <div class="col-span-6">
-                 <h2 class="text-4xl text-black text-center font-bold mt-[50px]" >Plant a Tree, Grow a Future</h2>
-                 <p class=" text-black text-center font-semibold mt-10">Join our mission to plant 1 million trees and make the  arth <br> greener for future generations.</p>
-                   <div class="text-center mt-15 ">
-                     <button class="btn rounded-2xl bg-[#FACC15] text-[#15803D] border-[#15803D] border-0 ">Get Involved</button>
-                   </div>
+                <h2 class="text-4xl text-black text-center font-bold mt-[50px]">Plant a Tree, Grow a Future</h2>
+                <p class=" text-black text-center font-semibold mt-10">Join our mission to plant 1 million trees and
+                    make the arth <br> greener for future generations.</p>
+                <div class="text-center mt-10 mb-10 ">
+                    <button class="btn rounded-2xl bg-[#FACC15] text-[#15803D] border-[#15803D] border-0 ">Get
+                        Involved</button>
+                </div>
             </div>
             <div class="col-span-3  left_image ">
                 <img src="assets/image/hero-leaf2.png" alt="image" class="max-w-full h-auto">
             </div>
         </div>
     </section>
-     <!-- Hero banner part end -->
+    <!-- Hero banner part end -->
 
-     <!-- Tree part start -->
+    <!-- Tree part start -->
 
-      <section class="tree_part bg-[#DCFCE7]">
+    <section class="tree_part bg-[#DCFCE7]">
         <h1 class="text-center text-4xl text-black font-bold pt-[40px] pb-[20px]">Choose Your Trees</h1>
 
         <div class=" w-11/12 grid grid-cols-12 gap-3 w-11/12 mx-auto ">
@@ -76,21 +84,29 @@
                 </h1>
 
                 <ul id="categories" class="p-0 block">
-                 
+
                 </ul>
             </div>
-            <div class="col-span-8"></div>
+            <div class="col-span-8">
+                <div class="grid grid-cols-3 gap-5" id="tree_details">
+                    <!-- tree card start  -->
+                        
+                    <!-- tree carrd end -->
+                    
+                </div>
+            </div>
             <div class="col-span-2"></div>
-
         </div>
 
-      </section>
-      <!-- Tree part end -->
-    
+
+    </section>
+    <!-- Tree part end -->
 
 
-    
+
+
 </body>
 
 <script src="assets/js/script.js"></script>
+
 </html>
